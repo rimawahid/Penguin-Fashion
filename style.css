@@ -7,26 +7,22 @@ body{
 .logo img{
     width: 300px;
 }
-.home{
-    margin-left: 500px;
+li.nav-item {
+    margin-left: 40px;
 }
 .text-highlight{
     font-size: 80px;
     color: #FABE4C;
     font-family: 'Bebas Neue', cursive;
 }
-.text-highlight-color{
-    font-size: 80px;
-    color: #363958;
-    font-family: 'Bebas Neue', cursive;  
-}
-.btn-color{
-    color: #fff;
-    background-color: #A4BC46;
+
+button.btn.btn-success.btn-color{
+   font-weight: bold;
     border: none;
-    border-radius: 5px;
-    padding: 15px 30px;
+    background-color: #A4BC46;
+    padding: 14px 24px;
 }
+
 .bg-color{
     background-color: #FFFBF0;
 }
@@ -49,11 +45,11 @@ body{
     border-radius: 10px; 
 }
 .card-item{
-    margin: 20px;
+    margin: 20px 20px  0 20px;
 }
 .card-title {
     margin-bottom: .5rem;
-    font-size: 30px;
+    font-size: 24px;
     color: #363958;
 }
 p {
@@ -86,3 +82,10 @@ p {
 .categories img{
     width: 100px;
 }
+button.btn.btn-success.btn-signup{
+    font-weight: bold;
+     border: none;
+     background-color: #A4BC46;
+     padding: 8px 30px;
+ }
+ 
